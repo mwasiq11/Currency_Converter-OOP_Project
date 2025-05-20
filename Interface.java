@@ -52,9 +52,9 @@ public class Interface extends JFrame implements ActionListener {
         getContentPane().setFont(new Font("", Font.BOLD, 51));
         getContentPane().setLayout(null);
 
-        JLabel LabelWelcome = new JLabel(" Currency Coverter System");
+        JLabel LabelWelcome = new JLabel(" Currency Exchange APP");
         LabelWelcome.setBounds(151, 11, 622, 105);
-        LabelWelcome.setForeground(new Color(255, 105, 180));
+        LabelWelcome.setForeground(new Color(25, 105, 180));
         LabelWelcome.setBackground(Color.GREEN);
         LabelWelcome.setFont(new Font("Thoma 22 bold", Font.BOLD, 38));
         getContentPane().add(LabelWelcome);
@@ -225,3 +225,4 @@ public class Interface extends JFrame implements ActionListener {
         }
     }
 }
+
